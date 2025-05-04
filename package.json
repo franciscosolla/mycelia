@@ -1,18 +1,44 @@
 {
   "name": "mycelia",
   "version": "1.0.0",
+  "description": "Mycelia Mobile — A personal Web3 playground exploring wallet connectivity and decentralized UX with React Native.",
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franciscosolla/mycelia"
+  },
+  "keywords": [
+    "web3",
+    "react-native",
+    "expo",
+    "walletconnect",
+    "metamask",
+    "ethereum",
+    "dapp",
+    "crypto"
+  ],
+  "author": "Francisco Solla <fsolla@pm.me>",
+  "license": "MIT",
+  "homepage": "https://mycelia.solla.dev",
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@walletconnect/universal-provider": "^2.20.1",
     "expo": "~53.0.4",
+    "expo-crypto": "~14.1.4",
+    "expo-dev-client": "~5.1.7",
     "expo-status-bar": "~2.2.3",
+    "node-libs-expo": "^0.0.3",
     "react": "19.0.0",
-    "react-native": "0.79.1"
+    "react-native": "0.79.1",
+    "react-native-crypto": "^2.2.0",
+    "react-native-get-random-values": "~1.11.0",
+    "react-native-url-polyfill": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
